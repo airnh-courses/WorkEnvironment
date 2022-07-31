@@ -19,4 +19,5 @@ https://lounge.airnhschool.com
 
 ## Run it!
 $ docker-compose up -d
-
+or
+$ docker compose up -d
