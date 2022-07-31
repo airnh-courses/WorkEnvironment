@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+    airnh_school_ws:
+        container_name: airnh_school_ws
+        image: airnh/school:student_ws
+        network_mode: bridge
+        ports:
+            - 12740:12740
+        stdin_open: true 
+        tty: true        
+        volumes:
+        - ./workspace:/home/student/workspace
+
