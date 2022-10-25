@@ -23,11 +23,9 @@ conda create -n airnh python=3.8.0 -y
 ```
 conda activate airnh
 ```
-3. Go to env_prep folder
+4. Install the python packages
 ```
-cd env_prep
+pip install airnh
 ```
-4. Install the required
-```
-pip install -r requirements.txt
-```
+
+Done!
