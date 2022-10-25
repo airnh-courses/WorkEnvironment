@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "airnh simulation bridge",
+            "command": "C:\\Users\\hylee\\.conda\\envs\\airnh\\python.exe",
+            "args":["run_bridge.py"]
+        }
+    ]
+}
