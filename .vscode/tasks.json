@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "airnh simulation bridge",            
+            // ========================
+            // put your command like this
+            // "command": "C:\\Users\\user1\\.conda\\envs\\airnh\\python.exe",
+            "command": "C:\\Users\\user1\\.conda\\envs\\airnh\\python.exe",
+            // ========================
+            "args":["run_bridge.py"]
+        }
+    ]
+}
